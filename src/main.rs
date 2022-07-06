@@ -1,11 +1,10 @@
 #![feature(concat_idents)]
 #![allow(dead_code)]
 
-use std::ops::BitOr;
 use bgfx::*;
 use bgfx_rs::bgfx;
 use glfw::{Action, Key, Window};
-use imgui::{Condition, Context, WindowFlags};
+use imgui::Context;
 use raw_window_handle::{HasRawWindowHandle, RawWindowHandle};
 use crate::imgui_glfw_support::GlfwPlatform;
 
