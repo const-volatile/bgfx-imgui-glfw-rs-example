@@ -54,3 +54,11 @@ shaderc -i . -f %%f -o %%~nf_dx11.h --bin2c %%~nf_dx11 --type %%t --platform win
 )
 shaderc -i . -f %%f -o %%~nf_mtl.h --bin2c %%~nf_mtl --type %%t --platform ios -p metal  -O 3
 ```
+
+### Modules ###
+
+
+| Module                  | Usage                                                 |
+| ----------------------- |:-----------------------------------------------------:|
+| imgui_bgfx_renderer     | Module to render imgui components using bgfx-rs       |
+| imgui_glfw_support      | Module to map glfw events to imgui events             |
