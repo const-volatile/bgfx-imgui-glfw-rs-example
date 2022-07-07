@@ -3,8 +3,13 @@
 
 ![screenshot](https://user-images.githubusercontent.com/9589896/177610510-586f0329-a105-4b02-adbe-dc22c2d7ad40.png)
 
+### Supported Platforms ###
+- GNU/Linux (tested on Arch Linux x86_64, Kernel: 5.18.5-arch1-1)
+- Windows (tested on Windows 11)
+- Mac OS X (tested on M1, Mac OS X 12.4 Monterey)
+
 ### Prerequisites ###
-- rust nightly (to use concat_idents)
+- rust nightly (to use `#![feature(concat_idents)]`)
 - cmake (to build dependencies)
 
 ### How to build ###
